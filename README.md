@@ -1,19 +1,19 @@
-# Ceph Handbook
+# Spacemacs Handbook
 
-此书是[ceph](http://docs.ceph.com)的阅读与理解，帮助大家更快了解ceph的管理和使用。
+此书是[spacemacs](https://github.com/syl20bnr/spacemacs)的阅读与理解，帮助大家更快了解spacemacs的管理和使用。
 
-- GitHub地址：https://github.com/eiuapp/ceph-handbook
+- GitHub地址：https://github.com/eiuapp/spacemacs-handbook
 
-- 在线访问地址：https://eiu.app/ceph-handbook
+- 在线访问地址：https://eiuapp.github.io/spacemacs-handbook
 
-ceph是著名的存储系统。
+spacemacs是著名的存储系统。
 
 
-下图是ceph生态圈图：
+下图是spacemacs生态圈图：
 
 <!-- https://docs.openstack.org/swift/queens/associated_projects.html -->
 
-<!-- ![ceph生态](images/container-ecosystem.png) -->
+<!-- ![spacemacs生态](images/container-ecosystem.png) -->
 
 ## 相关资源
 

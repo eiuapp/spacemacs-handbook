@@ -6,16 +6,10 @@
 
 ## install
 
-## gitlab pages
-
-* [project不能使用个人域名](docs/project-cannot-set-domain.md)
-
-
-
-
 ## 常见问题
 
-<!-- * [时间不一致](docs/faq/ntpdate.md) -->
+* [在windows用wsl中的zsh替换eshell](post/spacemacs-change-eshell-with-wsl-zsh.md)
+* [spacemacs 与 五笔的结合](post/spacemacs-install-pyim-4-wubi-input-method.md)
 
 ## 未来
 

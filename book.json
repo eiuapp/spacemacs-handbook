@@ -26,7 +26,13 @@
         "lightbox",
         "adsense",
         "ga",
-        "disqus"
+        "disqus",
+        "fontsettings",
+        "sharing",
+        "lunr",
+        "search",
+        "highlight",
+        "livereload"
     ],
     "pluginsConfig": {
         "theme-default": {
