@@ -10,6 +10,7 @@
 
 * [在windows用wsl中的zsh替换eshell](post/spacemacs-change-eshell-with-wsl-zsh.md)
 * [spacemacs 与 五笔的结合](post/spacemacs-install-pyim-4-wubi-input-method.md)
+* [spacemacs出现fonts(source code pro)找不到](post/spacemacs-fonts-source-code-pro.md)
 
 ## 未来
 
