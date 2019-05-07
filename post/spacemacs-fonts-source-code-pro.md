@@ -22,5 +22,10 @@ https://github.com/syl20bnr/spacemacs/issues/10162
 如果只是要安装 
 
 https://askubuntu.com/questions/193072/how-to-use-the-adobe-source-code-pro-font
+或者
+http://lida.site/2017/08/25/how-to-install-adobe-source-code-pro-in-ubuntu/
 
+如果是windows平台, 安装参考
+
+https://simpletutorials.com/c/2759/How+to+install+the+default+Spacemacs+font+on+Windows
 
