@@ -7,3 +7,4 @@ flymd.html
 flymd.md
 *.temp
 deploy.sh
+/report.*.json
