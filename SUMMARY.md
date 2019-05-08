@@ -38,7 +38,7 @@
 * [在windows用wsl中的zsh替换eshell](post/spacemacs-change-eshell-with-wsl-zsh.md)
 * [spacemacs 与 五笔的结合](post/spacemacs-install-pyim-4-wubi-input-method.md)
 * [spacemacs出现fonts(source code pro)找不到](post/spacemacs-fonts-source-code-pro.md)
-
+* [spacemacs使用tern对javascript代码进行补全](post/spacemacs-eslint-javascript.md)
 ## 未来
 
 * [spacemacs 在ubuntu下的配置思考](post/ubuntu-spacemacs.md)
