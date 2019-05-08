@@ -11,7 +11,13 @@ weight = 3010
 ## Autocompletion {#autocompletion}
 
 1.  company-etags vs company-tern
+
+使用的场景不同. company-tern 用于小型项目开发; company-etags 用于大型项目开发.
+
+但是,我目前参与的项目可以说,都是一些小型项目(代码量不会超出10**4),所以大多数情况下,我们用 company-tern 就可以了.
+
 2.  hippie-expand
+
 
 > M-x hippie-expand
 
@@ -19,8 +25,9 @@ weight = 3010
 
 > M-/
 
+比如: 输入 con 后,会有补全下拉选择项目, 按 C-g 取消, 再按 M-/ 就可以进行hippie-expand补全.
 
-## Jump to definition {#jump-to-definition}
+## Jump to definition {#jump-to-definition} ##
 
 1.  SPC s l to jump to function definitions.  ctags.
 2.  SPC m g d/ etags-select
@@ -28,23 +35,27 @@ weight = 3010
 4.  SPC m g g if use tern.js
 
 
-### jump to function definitions.  ctags> SPC s l {#jump-to-function-definitions-dot-ctags-spc-s-l}
+### jump to function definitions.  ctags> SPC s l {#jump-to-function-definitions-dot-ctags-spc-s-l} ###
 
 已经失效了
 
 
-### etags-select {#etags-select}
+### etags-select {#etags-select} ###
 
 etags, 基于正则表达式的补全
+
 > SPC m g d
 和
 > , g d
 相同
 
 
-### tern {#tern}
+### tern-mode精确补全下, 跳转定义 ###
 
-精确补全
+> M-x tern-find-definitions
+
+或者对应的快捷鍵
+
 > SPC m g g 也就是 > , g g
 
 
@@ -56,13 +67,17 @@ etags, 基于正则表达式的补全
 
 ### 开启语法检查 {#开启语法检查}
 
-> SPC t s
+> SPC t S
+
+在 ubuntu 下,会发现失效了. 怎么办?
+
 
 
 ### 查看语法错误信息 {#查看语法错误信息}
 
 > SPC e l
 
+在 ubuntu 下,会发现失效了. 怎么办?
 
 ## REPL {#repl}
 
@@ -77,15 +92,19 @@ ES6 support is not good, but has better keybinding.
 
 ### nodejs repl {#nodejs-repl}
 
-开启
+#### 开启
 
 > M-x nodejs-repl
 
-关闭 nodejs-repl
+#### 关闭 nodejs-repl
 
 > .exit
 
-去 nodejs-repl buffer执行当前行
+#### 去 nodejs-repl buffer执行当前行 ####
+
+> M-x nodejs-repl-eval-dwim
+
+或者快捷鍵
 
 > , e d
 
@@ -93,18 +112,32 @@ ES6 support is not good, but has better keybinding.
 
 > , s d
 
-具体其它命令，可以搜索文档
+#### 去 nodejs-repl buffer执行当前buffer ####
+
+> M-x nodejs-repl-eval-buffer 
+
+或者快捷鍵
+
+> , s b
+
+
+#### 具体其它命令，可以搜索文档 ####
 
 > C-h o nodejs-repl-command
 
 然后，查看 nodejs-repl-mode 文档
 
 
+
 ## Format code {#format-code}
 
 1.  js beautify
 
-> , =
+> M-x web-beautify-js
+
+或者快捷鍵
+
+> , = = 
 
 运行前，需要先安装 js-beautify
 
