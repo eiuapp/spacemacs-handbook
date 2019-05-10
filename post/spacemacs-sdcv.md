@@ -6,6 +6,9 @@ spacemacs 使用 sdcv
 env-wsl
 
 ## step
+### 总结
+
+此文与 https://eiu.app/emacs-handbook/post/lazycat-emacs.html 配合着看
 
 ### backgroud ###
 
@@ -24,12 +27,12 @@ https://github.com/manateelazycat/lazycat-emacs 来安装成功后, 依然, 也�
 
 那就回头去弄 lazycat-emacs 吧.
 
-可能的问题点:
+### (可跳过)可能的问题点:
 
 - ubuntu 在 wsl 中, 所以 mobaxterm xserver 的 x server 会不会过滤掉了信息.
 - 在windows下启动 lazycat-emacs 会有效果么?(因为文件路经的问题,后来没有继续尝试)
 
-### mobaxterm xserver ###
+### (可跳过)mobaxterm xserver ###
 
 [windows上完美的X-server服务器软件：MobaXterm](https://www.cnblogs.com/jinzhenshui/p/9089328.html)
 
@@ -100,15 +103,16 @@ https://github.com/manateelazycat/lazycat-emacs 来安装成功后, 依然, 也�
 这部分,可参看 https://eiu.app/emacs-handbook/post/lazycat-emacs.html
 
 
+### FAQ(已经解决)
 
+#### 启动时,报，文件夹错误
 
+如果说报，文件夹错误: 问题错误地使用文件名而不是ifo文件里的bookname. 
+正确做法, 在 配置中使用 ifo文件里的bookname
 
+### FAQ(未解决)
 
-
-
-
-
-### sdcv 发音 ###
+#### sdcv 发音 ####
 
 
 (setq sdcv-say-word t)
@@ -117,5 +121,6 @@ https://github.com/manateelazycat/lazycat-emacs 来安装成功后, 依然, 也�
 - 直接 ssh 运行远程 Emacs  放弃治疗。
 - tramp 或者反向穿透回来（讨论：关于远程文件编辑的方式选择 4），用的还是本地电脑的播放系统。
 ```
+
 
 
