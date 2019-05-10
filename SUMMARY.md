@@ -3,7 +3,7 @@
 ## 序言
 
 * [前言](README.md)
-* [环境](Spacemacs ENV)
+* [环境](post/spacemacs-env.md)
 
 ## install
 <!-- * [spacemacs](post/spacemacs.md) -->
