@@ -18,6 +18,10 @@
 ## key binding
 * [spacemacs key binding](post/spacemacs-key-binding.md)
 
+## English
+
+* [spacemacs 使用 sdcv](post/spacemacs-sdcv.md)
+
 ## Spacemacs Rocks
 
 * [Spacemacs Rocks Day 0, Intro](post/spacemacs-rocks-season-1-day-0-notes.md)
