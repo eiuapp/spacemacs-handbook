@@ -21,6 +21,9 @@ https://github.com/eiuapp/spacemacs-private-wsl-tl/commit/0f37fd4ebd82943778c63a
 https://github.com/manateelazycat/insert-translated-name#%E4%BD%BF%E7%94%A8
 
 
+- | insert-translated-name-replace                     | 按照当前语言风格自动替换中文为翻译后的名字 |
+- | insert-translated-name-insert                      | 按照当前语言风格自动插入翻译后的名字       |
+
 ## 修改 默认间隔符号
 
 修改 insert-translated-name.el 文件
@@ -43,6 +46,7 @@ https://github.com/manateelazycat/insert-translated-name#%E4%BD%BF%E7%94%A8
 ```
 
 ### 使用
+
 | 命令                                               | 描述                                       |
 | :--------                                          | :----                                      |
 | insert-translated-name-insert                      | 按照当前语言风格自动插入翻译后的名字       |
@@ -55,7 +59,8 @@ https://github.com/manateelazycat/insert-translated-name#%E4%BD%BF%E7%94%A8
 | insert-translated-name-replace-with-camel          | 按照骆驼风格自动替换中文为翻译后的名字     |
 | insert-translated-name-replace-with-line           | 按照连接线风格自动替换中文为翻译后的名字   |
 
-```insert-translated-name-insert``` 命令会根据当前的环境来自动切换不同的翻译风格， 如果匹配下面的规则， 则直接使用返回的翻译结果：
+`insert-translated-name-insert` 命令会根据当前的环境来自动切换不同的翻译风格， 如果匹配下面的规则， 则直接使用返回的翻译结果：
+
 1. 当前模式如果设置了变量 ```insert-translated-name-original-translation``` （由函数 insert-translated-name-use-original-translation 设置）
 2. 在字符串或者注释中
 3. 在magit commit buffer 中
@@ -64,6 +69,7 @@ https://github.com/manateelazycat/insert-translated-name#%E4%BD%BF%E7%94%A8
 当然，你也可以在调用命令 ```insert-translated-name-insert``` 之前按一下 C-u 也是可以的。
 
 下面是各种语言预定的风格, 如果你不喜欢默认风格, 可以定制以下变量的内容:
+
 ```
 (defvar insert-translated-name-origin-style-mode-list
   '(text-mode))
@@ -94,3 +100,18 @@ Google 的长句翻译更加准确一点.
                ))
   (add-hook hook '(lambda () (insert-translated-name-use-original-translation))))
 ```
+
+
+## FAQ(已解决)
+## FAQ(未解决)
+
+### insert-translated-name-insert 无法连续输入
+
+每一次,都是输入一下`M-x insert-translated-name-insert`,然后,又需要重新输入 `M-x insert-translated-name-insert`, 这样明显太麻烦了.
+
+### rcirc 插件自动翻译成英文
+
+`好怀念十几年前, 我在Emacs中读中文, 我的一个 rcirc 插件自动翻译成英文和老外在IRC频道里神拽的年代.`
+
+作者在 文章中提到的 rcirc 插件自动翻译成英文, 如何实现 
+
