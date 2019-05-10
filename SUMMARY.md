@@ -20,7 +20,8 @@
 
 ## English
 
-* [spacemacs 使用 sdcv](post/spacemacs-sdcv.md)
+* [查单词spacemacs 使用 sdcv](post/spacemacs-sdcv.md)
+* [写单词spacemacs 使用 company-english-helper](post/spacemacs-company-english-helper.md)
 
 ## Spacemacs Rocks
 
