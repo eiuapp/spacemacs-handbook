@@ -31,5 +31,12 @@ python ./stardict.py stardict-kdic-ec-11w-2.4.2/kdic-ec-11w.ifo
 ```
 
 把 stardict-kdic-ec-11w-2.4.2/kdic-ec-11w.ifo 替换成你喜欢的 stardict 字典, 命令执行完成后, 会自动生成新的 company-english-helper-data.el 文件
+## FAQ(已解决)
+## FAQ(未解决)
+
+### lazycat-emacs 没有成功
+
+没有找到命令 `toggle-company-english-helper'
+
 
 
