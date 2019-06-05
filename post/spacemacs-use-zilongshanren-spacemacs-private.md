@@ -81,6 +81,17 @@ brew tap caskroom/fonts && brew cask install font-source-code-pro
 
 好像，这个问题，已经OK了。
 
+
+### 修改 title bar中的 `guanghui` 为 `zengyunlong`
+
+找到 `~/.spacemacs.d/layers/zilongshanren-ui/config.el` 文件, 修改下面地方
+
+```
+(setq frame-title-format
+      '("" " zengyunlong - "
+        (:eval (if (buffer-file-name)
+                   (abbreviate-file-name (buffer-file-name)) "%b"))))
+```
 ## Ref
 
 - https://github.com/zilongshanren/spacemacs-private/issues/180 
