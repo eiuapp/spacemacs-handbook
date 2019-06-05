@@ -82,7 +82,9 @@ brew tap caskroom/fonts && brew cask install font-source-code-pro
 好像，这个问题，已经OK了。
 
 
-### 修改 title bar中的 `guanghui` 为 `zengyunlong`
+### 修改 title bar中的文字 `guanghui` 为 `zengyunlong`
+
+https://www.emacswiki.org/emacs/FrameTitle
 
 找到 `~/.spacemacs.d/layers/zilongshanren-ui/config.el` 文件, 修改下面地方
 
@@ -92,6 +94,30 @@ brew tap caskroom/fonts && brew cask install font-source-code-pro
         (:eval (if (buffer-file-name)
                    (abbreviate-file-name (buffer-file-name)) "%b"))))
 ```
+### 修改 title bar中的图标 icon
+
+参考
+
+https://oomake.com/question/152482
+
+我从一个免费软件网页下载了两个.ico文件(只是[google it](http://www.google.com/search?q=icon+ico+free))，并尝试使用它，这是可行的。以前我尝试过一个.bmp - 因为[frame parameters](http://www.gnu.org/software/emacs/elisp/html_node/Management-Parameters.html)的文档没有指定文件类型。看起来像你必须使用[.ico format](http://en.wikipedia.org/wiki/ICO_(icon_image_file_format))的窗口。现在我的两个emacs框架看起来像是[surfboard](http://www.iconarchive.com/download/icon/iconshock/beach/surf.ico)和[beach chair](http://www.iconarchive.com/download/icon/iconshock/beach/beach-sit.ico)。
+
+```
+(set-frame-parameter (car (frame-list)) 'icon-type  "c:/path/to/bitmap/surf.ico")
+```
+
+找到 `~/.spacemacs.d/layers/zilongshanren-ui/config.el` 文件, 修改下面地方
+
+```
+(setq frame-title-format
+            '("" " zyl - "
+              (:eval (if (buffer-file-name)
+                         (abbreviate-file-name (buffer-file-name)) "%b"))))
+(set-frame-parameter (car (frame-list)) 'icon-type  "~/.spacemacs.d/utils/images/ecoicon05_122077.png")
+```
+
+
+
 ## Ref
 
 - https://github.com/zilongshanren/spacemacs-private/issues/180 
