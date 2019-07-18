@@ -50,3 +50,6 @@ I also faced this issue today after updating all packages.
 `git config --global user.name`
 
 
+## Ref
+
+- https://github.com/syl20bnr/spacemacs/issues/9374
