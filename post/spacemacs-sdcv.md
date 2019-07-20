@@ -3,7 +3,7 @@ spacemacs 使用 sdcv
 
 ## env
 
-env-wsl
+wsl
 
 ## step
 ### 总结
