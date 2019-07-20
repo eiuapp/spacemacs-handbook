@@ -23,6 +23,7 @@
 * [查单词spacemacs 使用 sdcv](post/spacemacs-sdcv.md)
 * [写单词spacemacs 使用 company-english-helper](post/spacemacs-company-english-helper.md)
 * [翻译spacemacs 使用 insert-translated-name](post/spacemacs-insert-translated-name.md)
+* [emacspeak install with spacemacs and macos](post/emacspeak-install-with-spacemacs-macos.md)
 
 ## Spacemacs Rocks
 
