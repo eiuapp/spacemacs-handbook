@@ -11,12 +11,18 @@ weight = 3003
 [spacemacs-rocks(1)](http://v.youku.com/v%5Fshow/id%5FXMTM1Njc3MzU4MA==.html?spm=a2h0j.11185381.listitem%5Fpage1.5!30~A)
 
 
-## 跳到函数定义，并返回 {#跳到函数定义-并返回}
+## 跳到函数定义，并返回 ##i
 
-> , g g 然后 C-o
+- describe-function: C-h f
+- find-function: C-h C-f 或者 , g g
+    - 然后 C-o 会切回到上一个 buffer
 
+## 跳 变量
 
-## Navigation functions in current file {#navigation-functions-in-current-file}
+- C-h v
+- C-h C-v
+
+## Navigation functions in current file ##
 
 > SPC s l （已经失效，因为没有找到这个快捷键）
 
