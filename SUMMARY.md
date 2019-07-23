@@ -50,6 +50,7 @@
 * [spacemacs出现fonts(source code pro)找不到](post/spacemacs-fonts-source-code-pro.md)
 * [spacemacs使用tern对javascript代码进行补全](post/spacemacs-eslint-javascript.md)
 * [使用flycheck时自动选择syntax checker](post/spacemacs-flycheck-select-syntax-checkers-automatically.md)
+* [pyim 的相关报错](post/pyim-toggle-input-method-faq.md)
 
 ## 未来
 
