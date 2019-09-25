@@ -27,6 +27,10 @@
 * [emacspeak install with spacemacs and macos](post/emacspeak-install-with-spacemacs-macos.md)
 * [emacspeak install with spacemacs and wsl](post/emacspeak-install-with-spacemacs-wsl.md)
 
+## themes
+
+* [spacemacs themes](post/spacemacs-themes.md)
+
 ## Spacemacs Rocks
 
 * [Spacemacs Rocks Day 0, Intro](post/spacemacs-rocks-season-1-day-0-notes.md)
