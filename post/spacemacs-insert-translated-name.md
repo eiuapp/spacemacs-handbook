@@ -12,7 +12,7 @@ https://github.com/manateelazycat/insert-translated-name
 
 ## step
 
-我的操作
+安装操作
 
 https://github.com/eiuapp/spacemacs-private-wsl-tl/commit/0f37fd4ebd82943778c63ab51e42c9641f9435ce
 
@@ -46,6 +46,18 @@ https://github.com/manateelazycat/insert-translated-name#%E4%BD%BF%E7%94%A8
 ```
 
 ### 使用
+
+#### My practice
+
+进入插入模式 Enter insert mode(不需要切换输入法), `M-x insert-translated-name-insert`, 此时,已切换成了 中文输入法了, 输入中文, 完毕后按 空格 ,自动翻译成了英文. 
+
+最好输入英文长句. 
+
+如果您已经输入了大量的中文,要对中文进行直接地翻译, 则把光标移动至要翻译的句子, 然后, `M-x insert-translated-name-replace`, 就可以了. 
+
+对于翻译后的展现形式, 可以使用 `-with-*` 来达到.
+
+#### Official Documents
 
 | 命令                                               | 描述                                       |
 | :--------                                          | :----                                      |
@@ -114,4 +126,22 @@ Google 的长句翻译更加准确一点.
 `好怀念十几年前, 我在Emacs中读中文, 我的一个 rcirc 插件自动翻译成英文和老外在IRC频道里神拽的年代.`
 
 作者在 文章中提到的 rcirc 插件自动翻译成英文, 如何实现 
+
+### `M-x insert-translated-name-insert`后报下面错误
+
+#### 情况二 ####
+
+```
+Type Chinese and press SPACE to translate.
+error in process filter: split-string: Wrong type argument: stringp, nil
+error in process filter: Wrong type argument: stringp, nil
+```
+
+#### 情况一 ####
+
+```
+Type Chinese and press SPACE to translate.
+error in process filter: json-read: JSON readtable error: 60
+error in process filter: JSON readtable error: 60
+```
 
