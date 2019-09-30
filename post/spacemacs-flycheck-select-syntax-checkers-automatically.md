@@ -35,3 +35,34 @@ http://www.flycheck.org/en/latest/user/syntax-checkers.html
 
 现在直接就报了一个错误。见 https://github.com/zilongshanren/spacemacs-private/issues/180 
 
+# flycheck
+
+https://github.com/flycheck/flycheck/issues/1087
+
+## eslint-auto.el
+
+https://gist.github.com/blue0513/f503c26bf5cb8a1b6fb6e75f1ec91557
+https://gist.github.com/ustun/73321bfcb01a8657e5b8
+
+## add-node-modules-path
+
+https://github.com/codesuki/add-node-modules-path
+
+## eslintd-fix
+
+https://github.com/aaronjensen/eslintd-fix
+https://github.com/mantoni/eslint_d.js
+
+## js-auto-format-mode
+https://github.com/ybiquitous/js-auto-format-mode
+
+这个，蛮好的，可以在 检查代码。
+
+- 本地运行 eslint
+- 好像不开启 flycheck-mode 时，依然能使用
+- tramp后的远程文件，不能使用
+
+## gist 
+
+https://gist.github.com/mvanzorn/9b7c694cf9369e7379b7723c65b2186f
+
