@@ -27,6 +27,12 @@
 * [emacspeak install with spacemacs and macos](post/emacspeak-install-with-spacemacs-macos.md)
 * [emacspeak install with spacemacs and wsl](post/emacspeak-install-with-spacemacs-wsl.md)
 
+## flycheck
+
+* [使用flycheck时自动选择syntax checker](post/spacemacs-flycheck-select-syntax-checkers-automatically.md)
+* [spacemacs使用eslint对javascript代码进行补全](post/spacemacs-eslint-javascript.md)
+* [(未成功)spacemacs使用eslint对javascript代码进行补全(对远程文件)](post/spacemacs-eslint-javascript-tramp.md)
+
 ## themes
 
 * [spacemacs themes](post/spacemacs-themes.md)
@@ -52,9 +58,8 @@
 * [在windows用wsl中的zsh替换eshell](post/spacemacs-change-eshell-with-wsl-zsh.md)
 * [spacemacs 与 五笔的结合](post/spacemacs-install-pyim-4-wubi-input-method.md)
 * [spacemacs出现fonts(source code pro)找不到](post/spacemacs-fonts-source-code-pro.md)
-* [spacemacs使用tern对javascript代码进行补全](post/spacemacs-eslint-javascript.md)
-* [使用flycheck时自动选择syntax checker](post/spacemacs-flycheck-select-syntax-checkers-automatically.md)
 * [pyim 的相关报错](post/pyim-toggle-input-method-faq.md)
+
 
 ## 未来
 
