@@ -8,6 +8,8 @@ draft = false
 weight = 3003
 +++
 
+https://github.com/emacs-china/Spacemacs-rocks/issues/5
+
 本spacemacs rocks day系列是针对子龙山人的 spacemacs rocks season 1 的 [11个优酷视频教程](http://list.youku.com/albumlist/show?id=26137579&ascending=1&page=1)而整理的笔记。
 相应的子龙山人的本人对教程的介绍，请看：[这里](https://zilongshanren.com/post/2015-12-06-spacemacs-rocks/)   [废弃地址](https://zilongshanren.com/blog/2015-12-06-spacemacs-rocks.html)
 
