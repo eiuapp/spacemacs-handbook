@@ -1,0 +1,1086 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>macos下查单词spacemacs 使用 sdcv · Spacemacs Handbook - Spacemacs 实践指南 by eiuapp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="eiuapp">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-ghcolors.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="spacemacs-company-english-helper.html" />
+    
+    
+    <link rel="prev" href="spacemacs-sdcv.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"eiuapp/spacemacs-handbook","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://eiuapp.github.io/spacemacs-handbook" target="_blank" class="custom-link">Spacemacs Handbook</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">序言</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="spacemacs-env.html">
+            
+                <a href="spacemacs-env.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">install</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="spacemacs-install-with-win10.html">
+            
+                <a href="spacemacs-install-with-win10.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    在win10上安装spacemacs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="spacemacs-install-faq-with-win10.html">
+            
+                <a href="spacemacs-install-faq-with-win10.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    在win10上安装spacemacs常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="spacemacs-faq-is-the-package-name-misspelled.html">
+            
+                <a href="spacemacs-faq-is-the-package-name-misspelled.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    安装 Package 失败
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">configure</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="spacemacs-use-zilongshanren-spacemacs-private.html">
+            
+                <a href="spacemacs-use-zilongshanren-spacemacs-private.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    Spacemacs Use Zilongshanren Spacemacs Private
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">key binding</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="spacemacs-key-binding.html">
+            
+                <a href="spacemacs-key-binding.html">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    spacemacs key binding
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">English</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="spacemacs-sdcv.html">
+            
+                <a href="spacemacs-sdcv.html">
+            
+                    
+                        <b>5.1.</b>
+                    
+                    查单词spacemacs 使用 sdcv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.2" data-path="sdcf-with-spacemacs-macos.html">
+            
+                <a href="sdcf-with-spacemacs-macos.html">
+            
+                    
+                        <b>5.2.</b>
+                    
+                    macos下查单词spacemacs 使用 sdcv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="spacemacs-company-english-helper.html">
+            
+                <a href="spacemacs-company-english-helper.html">
+            
+                    
+                        <b>5.3.</b>
+                    
+                    写单词spacemacs 使用 company-english-helper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="spacemacs-insert-translated-name.html">
+            
+                <a href="spacemacs-insert-translated-name.html">
+            
+                    
+                        <b>5.4.</b>
+                    
+                    翻译spacemacs 使用 insert-translated-name
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="emacspeak-install-with-spacemacs-macos.html">
+            
+                <a href="emacspeak-install-with-spacemacs-macos.html">
+            
+                    
+                        <b>5.5.</b>
+                    
+                    emacspeak install with spacemacs and macos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="emacspeak-install-with-spacemacs-wsl.html">
+            
+                <a href="emacspeak-install-with-spacemacs-wsl.html">
+            
+                    
+                        <b>5.6.</b>
+                    
+                    emacspeak install with spacemacs and wsl
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">flycheck</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="spacemacs-flycheck-select-syntax-checkers-automatically.html">
+            
+                <a href="spacemacs-flycheck-select-syntax-checkers-automatically.html">
+            
+                    
+                        <b>6.1.</b>
+                    
+                    使用flycheck时自动选择syntax checker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="spacemacs-eslint-javascript.html">
+            
+                <a href="spacemacs-eslint-javascript.html">
+            
+                    
+                        <b>6.2.</b>
+                    
+                    spacemacs使用eslint对javascript代码进行补全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="spacemacs-eslint-javascript-tramp.html">
+            
+                <a href="spacemacs-eslint-javascript-tramp.html">
+            
+                    
+                        <b>6.3.</b>
+                    
+                    (未成功)spacemacs使用eslint对javascript代码进行补全(对远程文件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">themes</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="spacemacs-themes.html">
+            
+                <a href="spacemacs-themes.html">
+            
+                    
+                        <b>7.1.</b>
+                    
+                    spacemacs themes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Spacemacs Rocks</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="spacemacs-rocks-season-1-day-0-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-0-notes.html">
+            
+                    
+                        <b>8.1.</b>
+                    
+                    Spacemacs Rocks Day 0, Intro
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="spacemacs-rocks-season-1-day-1-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-1-notes.html">
+            
+                    
+                        <b>8.2.</b>
+                    
+                    Spacemacs Rocks Day 1, Features & Workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="spacemacs-rocks-season-1-day-2-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-2-notes.html">
+            
+                    
+                        <b>8.3.</b>
+                    
+                    Spacemacs Rocks Day 2, Use Org-mode to Management Your Time
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="spacemacs-rocks-season-1-day-3-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-3-notes.html">
+            
+                    
+                        <b>8.4.</b>
+                    
+                    Spacemacs Rocks Day 3, Emacs as a C/C++ IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="spacemacs-rocks-season-1-day-4-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-4-notes.html">
+            
+                    
+                        <b>8.5.</b>
+                    
+                    Spacemacs Rocks Day 4, Magit workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="spacemacs-rocks-season-1-day-5-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-5-notes.html">
+            
+                    
+                        <b>8.6.</b>
+                    
+                    Spacemacs Rocks Day 5, Find, Search and replace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="spacemacs-rocks-season-1-day-6-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-6-notes.html">
+            
+                    
+                        <b>8.7.</b>
+                    
+                    Spacemacs Rocks Day 6, Org-mode as a blogging engine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="spacemacs-rocks-season-1-day-7-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-7-notes.html">
+            
+                    
+                        <b>8.8.</b>
+                    
+                    Spacemacs Rocks Day 7, Spacemacs buffer, file, project and layout management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.9" data-path="spacemacs-rocks-season-1-day-8-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-8-notes.html">
+            
+                    
+                        <b>8.9.</b>
+                    
+                    Spacemacs Rocks Day 8, Spacemacs as a JavaScript/Node.js IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.10" data-path="spacemacs-rocks-season-1-day-9-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-9-notes.html">
+            
+                    
+                        <b>8.10.</b>
+                    
+                    Spacemacs Rocks Day 9, spacemacs as a life style
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.11" data-path="spacemacs-rocks-season-1-day-10-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-10-notes.html">
+            
+                    
+                        <b>8.11.</b>
+                    
+                    Spacemacs Rocks Day 10, spacemacs tutor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.12" data-path="spacemacs-rocks-season-1-day-11-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-11-notes.html">
+            
+                    
+                        <b>8.12.</b>
+                    
+                    Spacemacs Rocks Day 11, spacemacs use daily
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">常见问题</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="spacemacs-qa-1.html">
+            
+                <a href="spacemacs-qa-1.html">
+            
+                    
+                        <b>9.1.</b>
+                    
+                    Spacemacs Qa 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="spacemacs-change-eshell-with-wsl-zsh.html">
+            
+                <a href="spacemacs-change-eshell-with-wsl-zsh.html">
+            
+                    
+                        <b>9.2.</b>
+                    
+                    在windows用wsl中的zsh替换eshell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="spacemacs-install-pyim-4-wubi-input-method.html">
+            
+                <a href="spacemacs-install-pyim-4-wubi-input-method.html">
+            
+                    
+                        <b>9.3.</b>
+                    
+                    spacemacs 与 五笔的结合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="spacemacs-fonts-source-code-pro.html">
+            
+                <a href="spacemacs-fonts-source-code-pro.html">
+            
+                    
+                        <b>9.4.</b>
+                    
+                    spacemacs出现fonts(source code pro)找不到
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="pyim-toggle-input-method-faq.html">
+            
+                <a href="pyim-toggle-input-method-faq.html">
+            
+                    
+                        <b>9.5.</b>
+                    
+                    pyim 的相关报错
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">未来</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="ubuntu-spacemacs.html">
+            
+                <a href="ubuntu-spacemacs.html">
+            
+                    
+                        <b>10.1.</b>
+                    
+                    spacemacs 在ubuntu下的配置思考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">相关资源</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >macos下查单词spacemacs 使用 sdcv</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><p>+++
+title = &quot;macos &#x4E0B; spacemacs &#x4F7F;&#x7528; sdcv&quot;
+date = 2019-07-19
+lastmod = 2019-07-19T19:02:32+08:00
+tags = [&quot;emacs&quot;, &quot;spacemacs&quot;]
+categories = [&quot;spacemacs&quot;]
+draft = false
+weight = 3003
++++</p>
+<p>(&#x672A;&#x5B8C;&#x6210;)</p>
+<p>macos &#x4E0B; spacemacs &#x4F7F;&#x7528; sdcv</p>
+<h2 id="env">env</h2>
+<ul>
+<li>os: macos</li>
+<li>emacs: spacemacs</li>
+</ul>
+<h2 id="step">step</h2>
+<h3 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h3>
+<p>&#x6B64;&#x6587;&#x4E0E; <a href="https://eiu.app/emacs-handbook/post/lazycat-emacs.html" target="_blank">https://eiu.app/emacs-handbook/post/lazycat-emacs.html</a> &#x914D;&#x5408;&#x7740;&#x770B;</p>
+<h3 id="backgroud">backgroud</h3>
+<p><a href="https://github.com/eiuapp/lazycat-emacs/blob/eiuapp/README.eiuapp.md" target="_blank">https://github.com/eiuapp/lazycat-emacs/blob/eiuapp/README.eiuapp.md</a></p>
+<p><a href="https://github.com/manateelazycat/sdcv" target="_blank">https://github.com/manateelazycat/sdcv</a></p>
+<h3 id="&#x5B89;&#x88C5;-sdcv">&#x5B89;&#x88C5; sdcv</h3>
+<pre class="language-"><code>brew install sdcv
+</code></pre><p>&#x4F46;&#x662F;</p>
+<pre class="language-"><code>brew install stardict
+</code></pre><p>&#x51FA;&#x9519;&#x4E86;.</p>
+<p>&#x4E0B;&#x8F7D; <a href="https://sourceforge.net/projects/stardict-4/files/MacOSX/stardict-3.0.5-beta1-macosx.tar.bz2/download" target="_blank">stardict-3.0.5-beta1-macosx.tar.bz2</a></p>
+<p>&#x89E3;&#x538B;&#x540E;, &#x51FA;&#x6765;&#x7684;&#x662F;APP&#xFF0C;&#x4E5F;&#x4E0D;&#x662F;&#x6211;&#x8981;&#x7684;&#x8BCD;&#x5178;&#x5440;&#xFF0C;&#x600E;&#x4E48;&#x7528;&#x5440;&#xFF1F;</p>
+<p>&#x540E;&#x9762;&#x4F1A;&#x53D1;&#x73B0;, &#x597D;&#x50CF;, &#x8FD9;&#x4E2A;&#x8FD8;&#x771F;&#x7684;&#x662F;&#x53EF;&#x4EE5;&#x4E0D;&#x8FD0;&#x884C;.</p>
+<p>&#x627E;&#x5230;&#x4E86; github &#x5B98;&#x7F51; <a href="https://github.com/huzheng001/stardict-3" target="_blank">https://github.com/huzheng001/stardict-3</a></p>
+<p>&#x53C8;&#x53C2;&#x8003;:</p>
+<p><a href="https://tc77.com/articles/macosx-command-line-dictionary-stardict/" target="_blank">https://tc77.com/articles/macosx-command-line-dictionary-stardict/</a></p>
+<h3 id="&#x4E0B;&#x8F7D;&#x5B57;&#x5178;">&#x4E0B;&#x8F7D;&#x5B57;&#x5178;</h3>
+<p>&#x77E5;&#x9053;,&#x6211;&#x4EEC;&#x8981;&#x53BB;&#x4E0B;&#x8F7D;&#x8FD9;&#x4E2A;&#x5B57;&#x5178;.</p>
+<p>&#x627E;&#x5230;&#x5B98;&#x7F51;</p>
+<p><a href="http://stardict-4.sourceforge.net/" target="_blank">http://stardict-4.sourceforge.net/</a>
+<a href="http://stardict-4.sourceforge.net/index_cn.php" target="_blank">http://stardict-4.sourceforge.net/index_cn.php</a></p>
+<p>&#x627E;&#x5230; &#x8BCD;&#x5178;&#x4E0B;&#x8F7D;&#x5730;&#x5735;</p>
+<p><a href="http://download.huzheng.org/" target="_blank">http://download.huzheng.org/</a></p>
+<p>&#x627E;&#x5230; <code>&#x7B80;&#x4F53;&#x4E2D;&#x6587;</code>, &#x8FDB;&#x5165; </p>
+<p><a href="http://download.huzheng.org/zh_CN/" target="_blank">http://download.huzheng.org/zh_CN/</a></p>
+<p>&#x6BD4;&#x5982;,&#x6211;&#x4EEC;&#x8FD9;&#x91CC;&#x4E0B;&#x8F7D; &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot;, &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x6C49;&#x82F1;&#x8BCD;&#x5178;&quot; &#x5230; ~/Download &#x6587;&#x4EF6;&#x5939;&#x4E0B;</p>
+<p><code>stardict-lazyworm-ec-2.4.2.tar.bz2</code>, <code>stardict-lazyworm-ce-2.4.2.tar.bz2</code></p>
+<p>&#x8FD0;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x547D;&#x4EE4;.</p>
+<pre class="language-"><code>mkdir -p $HOME/.stardict/dic
+tar -xvzf ~/Downloads/dict.tgz -C $HOME/.stardict/dic
+</code></pre><p>&#x5B9E;&#x64CD;</p>
+<pre class="language-"><code>&#x279C;  dic git:(master) &#x2717; tar -xjvf ~/Downloads/stardict-lazyworm-ce-2.4.2.tar.bz2 -C ~/.stardict/dic
+x stardict-lazyworm-ce-2.4.2/
+x stardict-lazyworm-ce-2.4.2/lazyworm-ce.dict.dz
+x stardict-lazyworm-ce-2.4.2/lazyworm-ce.ifo
+x stardict-lazyworm-ce-2.4.2/lazyworm-ce.idx
+&#x279C;  dic git:(master) &#x2717; tar -xjvf ~/Downloads/stardict-lazyworm-ec-2.4.2.tar.bz2 -C ~/.stardict/dic
+x stardict-lazyworm-ec-2.4.2/
+x stardict-lazyworm-ec-2.4.2/lazyworm-ec.ifo
+x stardict-lazyworm-ec-2.4.2/lazyworm-ec.idx
+x stardict-lazyworm-ec-2.4.2/lazyworm-ec.dict.dz
+&#x279C;  dic git:(master) &#x2717; ls ~/.stardict/dic
+x stardict-lazyworm-ce-2.4.2    stardict-lazyworm-ec-2.4.2
+&#x279C;  dic git:(master) &#x2717;
+</code></pre><p>&#x770B;&#x5230;&#x4E86;, &#x628A;&#x8FD9;&#x4E9B;&#x8BCD;&#x5178;&#x5DF2;&#x7ECF;&#x653E;&#x5728;&#x4E86; ~/.stardict/dic &#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x4E86;&#x3002;</p>
+<p>&#x90A3;&#x600E;&#x4E48;&#x9A8C;&#x8BC1;&#xFF0C;&#x8FD9;&#x4E9B;&#x5B89;&#x88C5;&#x7684;&#x8BCD;&#x5178;&#xFF0C;&#x80FD;&#x4F7F;&#x7528;&#x5462;&#xFF1F;</p>
+<h3 id="&#x67E5;&#x770B;&#x8BCD;&#x5178;&#x7684;&#x4F7F;&#x7528;&#x540D;">&#x67E5;&#x770B;&#x8BCD;&#x5178;&#x7684;&#x4F7F;&#x7528;&#x540D;</h3>
+<p>&#x56E0;&#x4E3A;&#xFF0C;&#x8BCD;&#x5178;&#x4E0D;&#x6B62;&#x4E00;&#x4E2A;&#xFF0C;&#x90A3;&#x4E48;&#x8981;&#x533A;&#x5206;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x54EA;&#x4E00;&#x4E2A;&#x8BCD;&#x5178;&#xFF0C;&#x6240;&#x4EE5;&#x8981;&#x67E5;&#x770B;&#x4E00;&#x4E0B;&#x3002;</p>
+<p>&#x8FD0;&#x884C; <code>cd dict &amp; cat dict.ifo | grep bookname</code></p>
+<pre class="language-"><code>&#x279C;  dic git:(master) &#x2717; cd stardict-lazyworm-ec-2.4.2 &amp; ls
+lazyworm-ec.dict.dz  lazyworm-ec.idx  lazyworm-ec.ifo
+&#x279C;  stardict-lazyworm-ec-2.4.2 git:(master) &#x2717; cat lazyworm-ec.ifo | grep bookname
+bookname=&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;
+</code></pre><h3 id="shell-&#x4E2D;-&#x7FFB;&#x8BD1;">shell &#x4E2D; &#x7FFB;&#x8BD1;</h3>
+<p>&#x8FD0;&#x884C; <code>sdcv -n -u &quot;&#x8BCD;&#x5178;bookname&quot; &quot;&#x88AB;&#x7FFB;&#x8BD1;&#x7684;&#x5355;&#x8BCD;&#xFF08;&#x5982; hero&#xFF09;&quot; --data-dir=&#x8BCD;&#x5178;&#x6240;&#x5728;&#x76EE;&#x5F55;</code></p>
+<h4 id="&#x82F1;&#x8BD1;&#x6C49;">&#x82F1;&#x8BD1;&#x6C49;</h4>
+<p>&#x5982;, &#x82F1;&#x6587;&#x5355;&#x8BCD; <code>hero</code> &#x4F7F;&#x7528; &#x5728; <code>~/.stardict/dic</code> &#x76EE;&#x5F55;&#x4E0B;&#x7684; <code>&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;</code> &#x8FDB;&#x884C;&#x7FFB;&#x8BD1;&#xFF1A;</p>
+<pre class="language-"><code>&#x279C;  stardict-lazyworm-ec-2.4.2 git:(master) &#x2717; sdcv -n -u &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot; hero --data-dir=~/.stardict/dic
+save to cache /Users/tomtsang/.stardict/dic/stardict-lazyworm-ec-2.4.2/lazyworm-ec.idx
+Found 1 items, similar to hero.
+--&gt;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;
+--&gt;hero
+
+[&apos;hi&#x4D9;r&#x4D9;u]
+n.
+&#x82F1;&#x96C4;, &#x7537;&#x4E3B;&#x89D2;, &#x7537;&#x4E3B;&#x4EBA;&#x516C;
+
+&#x279C;  stardict-lazyworm-ec-2.4.2 git:(master) &#x2717;
+</code></pre><h4 id="&#x6C49;&#x8BD1;&#x82F1;">&#x6C49;&#x8BD1;&#x82F1;</h4>
+<p><a href="https://sites.google.com/site/gtonguedict/home/stardict-dictionaries" target="_blank">https://sites.google.com/site/gtonguedict/home/stardict-dictionaries</a></p>
+<p>&#x4E0B;&#x8F7D;&#x4E86; <code>Chinese-English dictionary</code> &#x8BCD;&#x5178;</p>
+<p>&#x5982;, &#x4E2D;&#x6587;&#x5355;&#x8BCD; <code>&#x4F60;&#x597D;</code> &#x4F7F;&#x7528; &#x5728; <code>~/.stardict/dic</code> &#x76EE;&#x5F55;&#x4E0B;&#x7684; <code>&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;</code> &#x8FDB;&#x884C;&#x7FFB;&#x8BD1;&#xFF1A;</p>
+<pre class="language-"><code>&#x279C;  stardict-chinese-eng-2.4.2 git:(master) &#x2717; pwd
+/Users/tomtsang/.stardict/dic/stardict-chinese-eng-2.4.2
+&#x279C;  stardict-chinese-eng-2.4.2 git:(master) &#x2717; cat chinese-eng.ifo | grep bookname
+bookname=Chinese-English dictionary
+&#x279C;  stardict-chinese-eng-2.4.2 git:(master) &#x2717; sdcv -n -u &quot;Chinese-English dictionary&quot; &quot;&#x4F60;&#x597D;&quot; --data-dir=~/.stardict/dic
+Found 1 items, similar to &#x4F60;&#x597D;.
+--&gt;Chinese-English dictionary
+--&gt;&#x4F60; &#x4F60;
+
+
+[ni3] /you/
+
+&#x279C;  stardict-chinese-eng-2.4.2 git:(master) &#x2717;
+</code></pre><p>&#x7ED3;&#x679C;&#x662F;&#x51FA;&#x6765;&#x4E86;, &#x4F46;&#x662F;&#x5F88;&#x660E;&#x663E;&#x5440;, &#x7FFB;&#x8BD1;&#x7684;&#x662F; <code>&#x4F60;</code>, &#x800C;&#x4E0D;&#x662F; <code>&#x4F60;&#x597D;</code>, &#x8FD9;&#x5C31;&#x6709;&#x70B9;&#x5C34;&#x5C2C;&#x4E86;&#x3002;</p>
+<p>&#x8BF4;&#x660E;&#xFF0C;&#x6211;&#x4EEC;&#x5728; shell &#x4E2D;&#x7FFB;&#x8BD1;&#x6210;&#x529F;</p>
+<h4 id="&#x9519;&#x8BEF;">&#x9519;&#x8BEF;</h4>
+<p>&#x5982;&#x679C;&#x4F7F;&#x7528;&#x9519;&#x8BEF;&#x4F1A;&#x62A5;&#x6210;&#x4E0B;&#x9762;&#x8FD9;&#x6837;</p>
+<pre class="language-"><code>&#x279C;  stardict-chinese-eng-2.4.2 git:(master) &#x2717; sdcv -n -u &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot; -u &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x6C49;&#x82F1;&#x8BCD;&#x5178;&quot; -u &quot;KDic11&#x4E07;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot; hero --data-dir=~/.stardict/dic
+Internal error: map::at:  key not found
+&#x279C;  stardict-chinese-eng-2.4.2 git:(master) &#x2717; sdcv -n -u &quot;Chinese-English dictionary&quot; hero --data-dir=~/.stardict/dic
+save to cache /Users/tomtsang/.stardict/dic/stardict-chinese-eng-2.4.2/chinese-eng.idx
+Nothing similar to hero, sorry :(
+</code></pre><h3 id="emacs-&#x4E2D;&#x7FFB;&#x8BD1;">emacs &#x4E2D;&#x7FFB;&#x8BD1;</h3>
+<p>&#x5F53;&#x5B8C;&#x6210;&#x4E86; shell &#x4E2D;&#x7684;&#x7FFB;&#x8BD1;&#x540E;&#xFF0C;&#x5176;&#x5B9E;&#xFF0C;&#x4E5F;&#x5C31;&#x5B8C;&#x6210;&#x4E86; emacs &#x4E2D;&#x7FFB;&#x8BD1;&#x3002;&#x53EA;&#x4E0D;&#x8FC7;&#xFF0C;&#x6211;&#x4EEC;&#x5728; emacs &#x4E2D;&#x8981;&#x52A0;&#x4E00;&#x4E9B;&#x8BCD;&#x5178;&#x3002;</p>
+<p>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5728; <code>~/.spacemacs.d/layers/zilongshanren-tomtsang/packages.el</code></p>
+<p>&#x5173;&#x952E;&#x914D;&#x7F6E;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre class="language-"><code>(defun zilongshanren-tomtsang/init-sdcv ()
+  (use-package sdcv
+    ;; :demand t
+    :init
+    :config
+    (add-to-list &apos;load-path (expand-file-name &quot;~/.spacemacs.d/layers/manaul-install/&quot;))
+    (require &apos;company-english-helper)
+    (require &apos;insert-translated-name)
+    (load-file &quot;~/.spacemacs.d/layers/manaul-install/posframe.el&quot;)
+    (load-file &quot;~/.spacemacs.d/layers/manaul-install/sdcv.el&quot;)
+    ;; (require &apos;sdcv)
+    ;; (setq sdcv-dictionary-data-dir lazycat-emacs-sdcv-data-dir) ;&#x8BBE;&#x7F6E;&#x661F;&#x9645;&#x8BD1;&#x738B;&#x672C;&#x5730;&#x8BCD;&#x5178;&#x7684;&#x76EE;&#x5F55;
+    (setq sdcv-dictionary-data-dir &quot;~/.stardict/dic&quot;)
+    (setq sdcv-say-word-p t)         ;say word after search
+    (setq sdcv-dictionary-simple-list    ;&#x661F;&#x9645;&#x8BD1;&#x738B;&#x5C4F;&#x5E55;&#x53D6;&#x8BCD;&#x8BCD;&#x5178;, &#x7B80;&#x5355;, &#x5FEB;&#x901F;
+          &apos;(&quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot;
+            &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x6C49;&#x82F1;&#x8BCD;&#x5178;&quot;
+            &quot;KDic11&#x4E07;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot;))
+    (setq sdcv-dictionary-complete-list     ;&#x661F;&#x9645;&#x8BD1;&#x738B;&#x7684;&#x8BCD;&#x5178;, &#x5B8C;&#x5168;, &#x8BE6;&#x7EC6;
+          &apos;(
+            &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot;
+            &quot;&#x82F1;&#x6C49;&#x6C49;&#x82F1;&#x4E13;&#x4E1A;&#x8BCD;&#x5178;&quot;
+            &quot;XDICT&#x82F1;&#x6C49;&#x8F9E;&#x5178;&quot;
+            &quot;stardict1.3&#x82F1;&#x6C49;&#x8F9E;&#x5178;&quot;
+            &quot;WordNet&quot;
+            &quot;XDICT&#x6C49;&#x82F1;&#x8F9E;&#x5178;&quot;
+            &quot;Jargon&quot;
+            &quot;&#x61D2;&#x866B;&#x7B80;&#x660E;&#x6C49;&#x82F1;&#x8BCD;&#x5178;&quot;
+            &quot;FOLDOC&quot;
+            &quot;&#x65B0;&#x4E16;&#x7EAA;&#x82F1;&#x6C49;&#x79D1;&#x6280;&#x5927;&#x8BCD;&#x5178;&quot;
+            &quot;KDic11&#x4E07;&#x82F1;&#x6C49;&#x8BCD;&#x5178;&quot;
+            &quot;&#x6717;&#x9053;&#x6C49;&#x82F1;&#x5B57;&#x5178;5.0&quot;
+            &quot;CDICT5&#x82F1;&#x6C49;&#x8F9E;&#x5178;&quot;
+            &quot;&#x65B0;&#x4E16;&#x7EAA;&#x6C49;&#x82F1;&#x79D1;&#x6280;&#x5927;&#x8BCD;&#x5178;&quot;
+            &quot;&#x725B;&#x6D25;&#x82F1;&#x6C49;&#x53CC;&#x89E3;&#x7F8E;&#x5316;&#x7248;&quot;
+            &quot;21&#x4E16;&#x7EAA;&#x53CC;&#x8BED;&#x79D1;&#x6280;&#x8BCD;&#x5178;&quot;
+            &quot;quick_eng-zh_CN&quot;
+            ))
+    )
+  )
+</code></pre><p>&#x5982;&#x679C;&#xFF0C;&#x5BF9;&#x4E8E;&#xFF0C;&#x4E0A;&#x9762;&#x51FA;&#x73B0;&#x7684;&#x8BCD;&#x5178;&#xFF0C;&#x6CA1;&#x6709;&#x4E0B;&#x8F7D;&#x5B8C;&#x5168;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#xFF0C;&#x5177;&#x4F53;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>&#x8FD0;&#x884C; <code>M-x sdcv-check</code> &#x65F6;, &#x62A5;&#x51FA;&#x90E8;&#x5206;&#x8BCD;&#x5178;&#x672A;&#x5B89;&#x88C5;</li>
+<li>&#x8FD0;&#x884C; <code>M-x sdcv-search-point+</code> &#x65F6;&#xFF0C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x4E0A;&#x9762;&#x7684;3&#x90E8;&#x8BCD;&#x5178;&#xFF0C;&#x6240;&#x4EE5;&#x53EA;&#x8981;&#x6709;&#x7ED3;&#x679C;&#xFF0C;&#x5C31;&#x4F1A;&#x8FD4;&#x56DE;&#x3002;</li>
+</ul>
+<h3 id="faq&#x672A;&#x89E3;&#x51B3;">FAQ(&#x672A;&#x89E3;&#x51B3;)</h3>
+<h4 id="&#x8BFB;&#x51FA;&#x82F1;&#x6587;&#x5355;&#x8BCD;">&#x8BFB;&#x51FA;&#x82F1;&#x6587;&#x5355;&#x8BCD;</h4>
+<p>&#x4ECE; <a href="http://stardict-4.sourceforge.net/index_cn.php" target="_blank">http://stardict-4.sourceforge.net/index_cn.php</a> &#x627E;&#x5230;</p>
+<p><a href="http://reciteword.sourceforge.net/" target="_blank">http://reciteword.sourceforge.net/</a></p>
+<h5 id="sdcv-&#x53D1;&#x97F3;">sdcv &#x53D1;&#x97F3;</h5>
+<p>(setq sdcv-say-word t)</p>
+<pre class="language-"><code>- &#x76F4;&#x63A5; ssh &#x8FD0;&#x884C;&#x8FDC;&#x7A0B; Emacs  &#x653E;&#x5F03;&#x6CBB;&#x7597;&#x3002;
+- tramp &#x6216;&#x8005;&#x53CD;&#x5411;&#x7A7F;&#x900F;&#x56DE;&#x6765;&#xFF08;&#x8BA8;&#x8BBA;&#xFF1A;&#x5173;&#x4E8E;&#x8FDC;&#x7A0B;&#x6587;&#x4EF6;&#x7F16;&#x8F91;&#x7684;&#x65B9;&#x5F0F;&#x9009;&#x62E9; 4&#xFF09;&#xFF0C;&#x7528;&#x7684;&#x8FD8;&#x662F;&#x672C;&#x5730;&#x7535;&#x8111;&#x7684;&#x64AD;&#x653E;&#x7CFB;&#x7EDF;&#x3002;
+</code></pre><footer class="page-footer"><span class="copyright"><p><a href="https://github.com/eiuapp/spacemacs-handbook" target="_blank">Spacemacs&#x5B9E;&#x8DF5;&#x6307;&#x5357;</a> | <a href="https://github.com/eiuapp/spacemacs-handbook" target="_blank">Spacemacs&#x5B9E;&#x8DF5;&#x6307;&#x5357;</a></p><p><a href="https://res.cloudinary.com/dmtixvmgt/image/upload/v1539022273/wechat-qrcode_cml5dm.jpg" data-lightbox="2fd927ee-fa64-4eca-8ed5-6bd72b573a3c" target="_blank">&#x70B9;&#x51FB;&#x5173;&#x6CE8;&#x3010;servicemesher&#x3011;&#x516C;&#x4F17;&#x53F7;&#x56DE;&#x590D;&#x3010;&#x52A0;&#x7FA4;&#x3011;&#x52A0;&#x5165;&#x5B66;&#x4E60;&#x7FA4;</a> | </p>Copyright &#xA9; <a href="https://eiuapp.github.io" target="_blank">eiuapp.github.io</a> 2017-2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification"> Updated at 
+2019-11-05 10:34:51
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="spacemacs-sdcv.html" class="navigation navigation-prev " aria-label="Previous page: 查单词spacemacs 使用 sdcv">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="spacemacs-company-english-helper.html" class="navigation navigation-next " aria-label="Next page: 写单词spacemacs 使用 company-english-helper">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"macos下查单词spacemacs 使用 sdcv","level":"5.2","depth":1,"next":{"title":"写单词spacemacs 使用 company-english-helper","level":"5.3","depth":1,"path":"post/spacemacs-company-english-helper.md","ref":"post/spacemacs-company-english-helper.md","articles":[]},"previous":{"title":"查单词spacemacs 使用 sdcv","level":"5.1","depth":1,"path":"post/spacemacs-sdcv.md","ref":"post/spacemacs-sdcv.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","codesnippet","splitter","page-toc-button","editlink","back-to-top-button","-lunr","-search","search-plus","github-buttons@2.1.0","favicon@^0.0.2","tbfed-pagefooter@^0.0.1","3-ba","theme-default","-highlight","prism","prism-themes","sitemap-general","lightbox","adsense","ga","disqus","fontsettings","sharing","lunr","search","highlight","livereload"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"<p><a href=https://github.com/eiuapp/spacemacs-handbook>Spacemacs实践指南</a> | <a href=https://github.com/eiuapp/spacemacs-handbook>Spacemacs实践指南</a></p><p><a href=https://res.cloudinary.com/dmtixvmgt/image/upload/v1539022273/wechat-qrcode_cml5dm.jpg data-lightbox=2fd927ee-fa64-4eca-8ed5-6bd72b573a3c>点击关注【servicemesher】公众号回复【加群】加入学习群</a> | </p>Copyright © <a href=https://eiuapp.github.io>eiuapp.github.io</a> 2017-2019","modify_label":" Updated at ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"lang":{"shell":"bash"},"css":["prism-themes/themes/prism-ghcolors.css"]},"disqus":{"useIdentifier":false,"shortName":"whoami"},"github":{"url":"https://github.com/eiuapp/spacemacs-handbook"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/eiuapp/spacemacs-handbook/blob/master/"},"livereload":{},"splitter":{},"adsense":{"client":"ca-pub-4029167986768912","slot":"2445941692","format":"auto","element":".page-inner section","position":"bottom"},"codesnippet":{},"sitemap-general":{"prefix":"https://eiuapp.github.io/spacemacs-handbook/"},"fontsettings":{"family":"sans","size":2,"theme":"white"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"lightbox":{"jquery":true},"page-toc-button":{},"back-to-top-button":{},"prism-themes":{},"github-buttons":{"repo":"eiuapp/spacemacs-handbook","types":["star"],"size":"small"},"3-ba":{"configuration":"auto","token":"b48c2a681745c6064b65c08ca650d51b"},"ga":{"configuration":"auto","token":"UA-93485976-1"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"search-plus":{}},"theme":"default","author":"eiuapp","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Spacemacs Handbook - Spacemacs 实践指南 by eiuapp","language":"zh-hans","links":{"sidebar":{"Spacemacs Handbook":"https://eiuapp.github.io/spacemacs-handbook"}},"gitbook":"*","description":"Spacemacs Handbook - Spacemacs 实践指南 2019年 by eiuapp "},"file":{"path":"post/sdcf-with-spacemacs-macos.md","mtime":"2019-11-05T10:34:51.971Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-05T10:35:49.318Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-adsense/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+
+    </body>
+</html>
+

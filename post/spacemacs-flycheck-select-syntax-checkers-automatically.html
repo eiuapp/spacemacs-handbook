@@ -1,0 +1,1014 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>使用flycheck时自动选择syntax checker · Spacemacs Handbook - Spacemacs 实践指南 by eiuapp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="eiuapp">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-ghcolors.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="spacemacs-eslint-javascript.html" />
+    
+    
+    <link rel="prev" href="emacspeak-install-with-spacemacs-wsl.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"eiuapp/spacemacs-handbook","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://eiuapp.github.io/spacemacs-handbook" target="_blank" class="custom-link">Spacemacs Handbook</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">序言</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="spacemacs-env.html">
+            
+                <a href="spacemacs-env.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">install</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="spacemacs-install-with-win10.html">
+            
+                <a href="spacemacs-install-with-win10.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    在win10上安装spacemacs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="spacemacs-install-faq-with-win10.html">
+            
+                <a href="spacemacs-install-faq-with-win10.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    在win10上安装spacemacs常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="spacemacs-faq-is-the-package-name-misspelled.html">
+            
+                <a href="spacemacs-faq-is-the-package-name-misspelled.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    安装 Package 失败
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">configure</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="spacemacs-use-zilongshanren-spacemacs-private.html">
+            
+                <a href="spacemacs-use-zilongshanren-spacemacs-private.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    Spacemacs Use Zilongshanren Spacemacs Private
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">key binding</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="spacemacs-key-binding.html">
+            
+                <a href="spacemacs-key-binding.html">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    spacemacs key binding
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">English</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="spacemacs-sdcv.html">
+            
+                <a href="spacemacs-sdcv.html">
+            
+                    
+                        <b>5.1.</b>
+                    
+                    查单词spacemacs 使用 sdcv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="sdcf-with-spacemacs-macos.html">
+            
+                <a href="sdcf-with-spacemacs-macos.html">
+            
+                    
+                        <b>5.2.</b>
+                    
+                    macos下查单词spacemacs 使用 sdcv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="spacemacs-company-english-helper.html">
+            
+                <a href="spacemacs-company-english-helper.html">
+            
+                    
+                        <b>5.3.</b>
+                    
+                    写单词spacemacs 使用 company-english-helper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="spacemacs-insert-translated-name.html">
+            
+                <a href="spacemacs-insert-translated-name.html">
+            
+                    
+                        <b>5.4.</b>
+                    
+                    翻译spacemacs 使用 insert-translated-name
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="emacspeak-install-with-spacemacs-macos.html">
+            
+                <a href="emacspeak-install-with-spacemacs-macos.html">
+            
+                    
+                        <b>5.5.</b>
+                    
+                    emacspeak install with spacemacs and macos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="emacspeak-install-with-spacemacs-wsl.html">
+            
+                <a href="emacspeak-install-with-spacemacs-wsl.html">
+            
+                    
+                        <b>5.6.</b>
+                    
+                    emacspeak install with spacemacs and wsl
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">flycheck</li>
+        
+        
+    
+        <li class="chapter active" data-level="6.1" data-path="spacemacs-flycheck-select-syntax-checkers-automatically.html">
+            
+                <a href="spacemacs-flycheck-select-syntax-checkers-automatically.html">
+            
+                    
+                        <b>6.1.</b>
+                    
+                    使用flycheck时自动选择syntax checker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="spacemacs-eslint-javascript.html">
+            
+                <a href="spacemacs-eslint-javascript.html">
+            
+                    
+                        <b>6.2.</b>
+                    
+                    spacemacs使用eslint对javascript代码进行补全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="spacemacs-eslint-javascript-tramp.html">
+            
+                <a href="spacemacs-eslint-javascript-tramp.html">
+            
+                    
+                        <b>6.3.</b>
+                    
+                    (未成功)spacemacs使用eslint对javascript代码进行补全(对远程文件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">themes</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="spacemacs-themes.html">
+            
+                <a href="spacemacs-themes.html">
+            
+                    
+                        <b>7.1.</b>
+                    
+                    spacemacs themes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Spacemacs Rocks</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="spacemacs-rocks-season-1-day-0-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-0-notes.html">
+            
+                    
+                        <b>8.1.</b>
+                    
+                    Spacemacs Rocks Day 0, Intro
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="spacemacs-rocks-season-1-day-1-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-1-notes.html">
+            
+                    
+                        <b>8.2.</b>
+                    
+                    Spacemacs Rocks Day 1, Features & Workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="spacemacs-rocks-season-1-day-2-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-2-notes.html">
+            
+                    
+                        <b>8.3.</b>
+                    
+                    Spacemacs Rocks Day 2, Use Org-mode to Management Your Time
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="spacemacs-rocks-season-1-day-3-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-3-notes.html">
+            
+                    
+                        <b>8.4.</b>
+                    
+                    Spacemacs Rocks Day 3, Emacs as a C/C++ IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="spacemacs-rocks-season-1-day-4-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-4-notes.html">
+            
+                    
+                        <b>8.5.</b>
+                    
+                    Spacemacs Rocks Day 4, Magit workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="spacemacs-rocks-season-1-day-5-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-5-notes.html">
+            
+                    
+                        <b>8.6.</b>
+                    
+                    Spacemacs Rocks Day 5, Find, Search and replace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="spacemacs-rocks-season-1-day-6-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-6-notes.html">
+            
+                    
+                        <b>8.7.</b>
+                    
+                    Spacemacs Rocks Day 6, Org-mode as a blogging engine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="spacemacs-rocks-season-1-day-7-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-7-notes.html">
+            
+                    
+                        <b>8.8.</b>
+                    
+                    Spacemacs Rocks Day 7, Spacemacs buffer, file, project and layout management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.9" data-path="spacemacs-rocks-season-1-day-8-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-8-notes.html">
+            
+                    
+                        <b>8.9.</b>
+                    
+                    Spacemacs Rocks Day 8, Spacemacs as a JavaScript/Node.js IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.10" data-path="spacemacs-rocks-season-1-day-9-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-9-notes.html">
+            
+                    
+                        <b>8.10.</b>
+                    
+                    Spacemacs Rocks Day 9, spacemacs as a life style
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.11" data-path="spacemacs-rocks-season-1-day-10-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-10-notes.html">
+            
+                    
+                        <b>8.11.</b>
+                    
+                    Spacemacs Rocks Day 10, spacemacs tutor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.12" data-path="spacemacs-rocks-season-1-day-11-notes.html">
+            
+                <a href="spacemacs-rocks-season-1-day-11-notes.html">
+            
+                    
+                        <b>8.12.</b>
+                    
+                    Spacemacs Rocks Day 11, spacemacs use daily
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">常见问题</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="spacemacs-qa-1.html">
+            
+                <a href="spacemacs-qa-1.html">
+            
+                    
+                        <b>9.1.</b>
+                    
+                    Spacemacs Qa 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="spacemacs-change-eshell-with-wsl-zsh.html">
+            
+                <a href="spacemacs-change-eshell-with-wsl-zsh.html">
+            
+                    
+                        <b>9.2.</b>
+                    
+                    在windows用wsl中的zsh替换eshell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="spacemacs-install-pyim-4-wubi-input-method.html">
+            
+                <a href="spacemacs-install-pyim-4-wubi-input-method.html">
+            
+                    
+                        <b>9.3.</b>
+                    
+                    spacemacs 与 五笔的结合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="spacemacs-fonts-source-code-pro.html">
+            
+                <a href="spacemacs-fonts-source-code-pro.html">
+            
+                    
+                        <b>9.4.</b>
+                    
+                    spacemacs出现fonts(source code pro)找不到
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="pyim-toggle-input-method-faq.html">
+            
+                <a href="pyim-toggle-input-method-faq.html">
+            
+                    
+                        <b>9.5.</b>
+                    
+                    pyim 的相关报错
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">未来</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="ubuntu-spacemacs.html">
+            
+                <a href="ubuntu-spacemacs.html">
+            
+                    
+                        <b>10.1.</b>
+                    
+                    spacemacs 在ubuntu下的配置思考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">相关资源</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >使用flycheck时自动选择syntax checker</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><h2 id="env">Env</h2>
+<ul>
+<li>os: mac os 10.13.3</li>
+<li>emacs: 26.1</li>
+<li>spacemacs&#xFF1A; 0.200.13@26.1</li>
+</ul>
+<h2 id="step">Step</h2>
+<p><a href="http://www.flycheck.org/en/latest/user/syntax-checkers.html" target="_blank">http://www.flycheck.org/en/latest/user/syntax-checkers.html</a></p>
+<p>&#x5148;&#x901A;&#x8FC7; <code>flycheck-verify-setup</code> &#x627E;&#x5230;&#x5F53;&#x524D;mode&#x4E0B;&#x6240;&#x6709;&#x7684; checkers, &#x5982;&#x679C;&#x4F60;&#x60F3;&#x81EA;&#x52A8;&#x4F7F;&#x7528;&#x7B2C;3&#x4E2A; checker ,&#x5219;&#x628A;&#x7B2C;1,2&#x4E2A; disable &#x5C31;&#x53EF;&#x4EE5;&#x4E86;.</p>
+<p>&#x6BD4;&#x5982;:</p>
+<p>&#x76EE;&#x6807;: &#x5728;js2-mode&#x4E0B;&#x81EA;&#x52A8;&#x4F7F;&#x7528;javascript-standard&#x4F5C;&#x4E3A; syntax checker.
+&#x64CD;&#x4F5C;: &#x5728;js2-mode&#x4E0B;&#x914D;&#x7F6E;</p>
+<pre class="language-"><code>;; (add-to-list &apos;flycheck-checkers &apos;javascript-standard)
+(setq-default flycheck-disabled-checkers &apos;(javascript-eslint javascript-jshint))
+</code></pre><p>&#x5B9E;&#x64CD;: <a href="https://github.com/eiuapp/spacemacs-private-wsl-tl/commit/dda680a7d2a39e3a9df705397a82ff64e4536324" target="_blank">https://github.com/eiuapp/spacemacs-private-wsl-tl/commit/dda680a7d2a39e3a9df705397a82ff64e4536324</a></p>
+<p>&#x73B0;&#x5728;&#x76F4;&#x63A5;&#x5C31;&#x62A5;&#x4E86;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#x3002;&#x89C1; <a href="https://github.com/zilongshanren/spacemacs-private/issues/180" target="_blank">https://github.com/zilongshanren/spacemacs-private/issues/180</a></p>
+<h1 id="flycheck">flycheck</h1>
+<p><a href="https://github.com/flycheck/flycheck/issues/1087" target="_blank">https://github.com/flycheck/flycheck/issues/1087</a></p>
+<h2 id="eslint-autoel">eslint-auto.el</h2>
+<p><a href="https://gist.github.com/blue0513/f503c26bf5cb8a1b6fb6e75f1ec91557" target="_blank">https://gist.github.com/blue0513/f503c26bf5cb8a1b6fb6e75f1ec91557</a>
+<a href="https://gist.github.com/ustun/73321bfcb01a8657e5b8" target="_blank">https://gist.github.com/ustun/73321bfcb01a8657e5b8</a></p>
+<h2 id="add-node-modules-path">add-node-modules-path</h2>
+<p><a href="https://github.com/codesuki/add-node-modules-path" target="_blank">https://github.com/codesuki/add-node-modules-path</a></p>
+<h2 id="eslintd-fix">eslintd-fix</h2>
+<p><a href="https://github.com/aaronjensen/eslintd-fix" target="_blank">https://github.com/aaronjensen/eslintd-fix</a>
+<a href="https://github.com/mantoni/eslint_d.js" target="_blank">https://github.com/mantoni/eslint_d.js</a></p>
+<h2 id="js-auto-format-mode">js-auto-format-mode</h2>
+<p><a href="https://github.com/ybiquitous/js-auto-format-mode" target="_blank">https://github.com/ybiquitous/js-auto-format-mode</a></p>
+<p>&#x8FD9;&#x4E2A;&#xFF0C;&#x86EE;&#x597D;&#x7684;&#xFF0C;&#x53EF;&#x4EE5;&#x5728; &#x68C0;&#x67E5;&#x4EE3;&#x7801;&#x3002;</p>
+<ul>
+<li>&#x672C;&#x5730;&#x8FD0;&#x884C; eslint</li>
+<li>&#x597D;&#x50CF;&#x4E0D;&#x5F00;&#x542F; flycheck-mode &#x65F6;&#xFF0C;&#x4F9D;&#x7136;&#x80FD;&#x4F7F;&#x7528;</li>
+<li>tramp&#x540E;&#x7684;&#x8FDC;&#x7A0B;&#x6587;&#x4EF6;&#xFF0C;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;</li>
+</ul>
+<h2 id="gist">gist</h2>
+<p><a href="https://gist.github.com/mvanzorn/9b7c694cf9369e7379b7723c65b2186f" target="_blank">https://gist.github.com/mvanzorn/9b7c694cf9369e7379b7723c65b2186f</a></p>
+<p>=======</p>
+<h2 id="faq">Faq</h2>
+<h3 id="flycheck-verify-setup-eslint-miss-file">flycheck-verify-setup eslint miss file</h3>
+<p>when i want to use javascript-eslint to flycheck, had the following wrong hint</p>
+<p><code>M-x flycheck-verify-setup</code></p>
+<pre class="language-"><code>Syntax checkers for buffer app.js<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>chat-admin-server</span><span class="token punctuation">&gt;</span></span> in js2-mode:
+
+  javascript-eslint (disabled)
+    - may enable:  Automatically disabled!
+    - executable:  Found at /mnt/c/Users/a/.nvm/versions/node/v11.14.0/bin/eslint
+    - config file: missing or incorrect
+
+  javascript-jshint (disabled)
+    - may enable:         yes
+    - executable:         Found at /mnt/c/Users/a/.nvm/versions/node/v11.14.0/bin/jshint
+    - configuration file: Not found
+
+  javascript-standard
+    - may enable: yes
+    - executable: Found at /mnt/c/Users/a/.nvm/versions/node/v11.14.0/bin/standard
+
+Flycheck Mode is enabled. Use SPC u C-c ! x to enable disabled checkers.
+
+--------------------
+
+Flycheck version: 32snapshot (package: 20190411.1707)
+Emacs version:    26.1
+System:           x86_64-pc-linux-gnu
+Window system:    x
+</code></pre><p><code>config file: missing or incorrect</code></p>
+<ul>
+<li><a href="https://blog.maya2250.com/entry/emacs26.2-flycheck-eslint" target="_blank">https://blog.maya2250.com/entry/emacs26.2-flycheck-eslint</a></li>
+</ul>
+<p>javascript-eslint (disabled)</p>
+<h4 id="executable-not-found">executable: Not found</h4>
+<p><code>- executable:  Not found</code></p>
+<p>&#x56E0;&#x4E3A;&#x662F;&#x8FD9;&#x6837;&#xFF0C;&#x6240;&#x4EE5;ESLint&#x4E0D;&#x80FD;&#x4E0E;Flycheck&#x4E00;&#x8D77;&#x4F7F;&#x7528;&#x3002;&#x9996;&#x5148;&#x5B89;&#x88C5;add-node-modules-path&#xFF0C;&#x8BA9;Emacs&#x8BC6;&#x522B;ESLint&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;&#x3002;</p>
+<h4 id="config-file-missing-or-incorrect">config file: missing or incorrect</h4>
+<p><code>- config file: missing or incorrect</code></p>
+<p><code>eslint</code>&#x88AB;&#x8BA4;&#x53EF;<code>.eslintrc</code>&#x4F46;&#x672A;&#x88AB;&#x8BA4;&#x53EF;&#x3002;</p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/40735669/how-where-i-can-set-eslint-config-file-in-spacemacs/40792585#40792585" target="_blank">https://stackoverflow.com/questions/40735669/how-where-i-can-set-eslint-config-file-in-spacemacs/40792585#40792585</a></li>
+</ul>
+<p>Spacemacs (and flycheck, the autocompletion plugin that interfaces with eslint) don&apos;t look for eslint configs, they delegate that to eslint itself. If you&apos;re getting this issue it means eslint itself is erroring out when it tries to load your project config.</p>
+<p>Run <code>eslint --print-config .</code> from your project directory and resolve all errors it prints out, and that should fix it.</p>
+<pre class="language-"><code class="lang-bash">ubuntu@utuntu:~/code-server/chat/chat-admin-server$ eslint --print-config <span class="token builtin class-name">.</span>
+
+Oops<span class="token operator">!</span> Something went wrong<span class="token operator">!</span> :<span class="token punctuation">(</span>
+
+ESLint: <span class="token number">6.5</span>.0.
+
+The <span class="token string">&apos;--print-config&apos;</span> CLI option requires a path to a <span class="token builtin class-name">source</span> code <span class="token function">file</span> rather than a directory.
+See also: https://eslint.org/docs/user-guide/command-line-interface<span class="token comment">#--print-config</span>
+
+ubuntu@utuntu:~/code-server/chat/chat-admin-server$
+</code></pre>
+<p>then found</p>
+<pre class="language-"><code class="lang-bash">eslint --print-config .eslintrc
+</code></pre>
+<p>is success.</p>
+<footer class="page-footer"><span class="copyright"><p><a href="https://github.com/eiuapp/spacemacs-handbook" target="_blank">Spacemacs&#x5B9E;&#x8DF5;&#x6307;&#x5357;</a> | <a href="https://github.com/eiuapp/spacemacs-handbook" target="_blank">Spacemacs&#x5B9E;&#x8DF5;&#x6307;&#x5357;</a></p><p><a href="https://res.cloudinary.com/dmtixvmgt/image/upload/v1539022273/wechat-qrcode_cml5dm.jpg" data-lightbox="2fd927ee-fa64-4eca-8ed5-6bd72b573a3c" target="_blank">&#x70B9;&#x51FB;&#x5173;&#x6CE8;&#x3010;servicemesher&#x3011;&#x516C;&#x4F17;&#x53F7;&#x56DE;&#x590D;&#x3010;&#x52A0;&#x7FA4;&#x3011;&#x52A0;&#x5165;&#x5B66;&#x4E60;&#x7FA4;</a> | </p>Copyright &#xA9; <a href="https://eiuapp.github.io" target="_blank">eiuapp.github.io</a> 2017-2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification"> Updated at 
+2019-11-05 10:34:51
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="emacspeak-install-with-spacemacs-wsl.html" class="navigation navigation-prev " aria-label="Previous page: emacspeak install with spacemacs and wsl">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="spacemacs-eslint-javascript.html" class="navigation navigation-next " aria-label="Next page: spacemacs使用eslint对javascript代码进行补全">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"使用flycheck时自动选择syntax checker","date":"2018-08-28T15:53:02.000Z","draft":false,"tags":["spacemacs"],"categories":["spacemacs"],"subtitle":"使用flycheck时自动选择syntax checker","descriptions":"","bigimg":null,"level":"6.1","depth":1,"next":{"title":"spacemacs使用eslint对javascript代码进行补全","level":"6.2","depth":1,"path":"post/spacemacs-eslint-javascript.md","ref":"post/spacemacs-eslint-javascript.md","articles":[]},"previous":{"title":"emacspeak install with spacemacs and wsl","level":"5.6","depth":1,"path":"post/emacspeak-install-with-spacemacs-wsl.md","ref":"post/emacspeak-install-with-spacemacs-wsl.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","codesnippet","splitter","page-toc-button","editlink","back-to-top-button","-lunr","-search","search-plus","github-buttons@2.1.0","favicon@^0.0.2","tbfed-pagefooter@^0.0.1","3-ba","theme-default","-highlight","prism","prism-themes","sitemap-general","lightbox","adsense","ga","disqus","fontsettings","sharing","lunr","search","highlight","livereload"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"<p><a href=https://github.com/eiuapp/spacemacs-handbook>Spacemacs实践指南</a> | <a href=https://github.com/eiuapp/spacemacs-handbook>Spacemacs实践指南</a></p><p><a href=https://res.cloudinary.com/dmtixvmgt/image/upload/v1539022273/wechat-qrcode_cml5dm.jpg data-lightbox=2fd927ee-fa64-4eca-8ed5-6bd72b573a3c>点击关注【servicemesher】公众号回复【加群】加入学习群</a> | </p>Copyright © <a href=https://eiuapp.github.io>eiuapp.github.io</a> 2017-2019","modify_label":" Updated at ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"lang":{"shell":"bash"},"css":["prism-themes/themes/prism-ghcolors.css"]},"disqus":{"useIdentifier":false,"shortName":"whoami"},"github":{"url":"https://github.com/eiuapp/spacemacs-handbook"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/eiuapp/spacemacs-handbook/blob/master/"},"livereload":{},"splitter":{},"adsense":{"client":"ca-pub-4029167986768912","slot":"2445941692","format":"auto","element":".page-inner section","position":"bottom"},"codesnippet":{},"sitemap-general":{"prefix":"https://eiuapp.github.io/spacemacs-handbook/"},"fontsettings":{"family":"sans","size":2,"theme":"white"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"lightbox":{"jquery":true},"page-toc-button":{},"back-to-top-button":{},"prism-themes":{},"github-buttons":{"repo":"eiuapp/spacemacs-handbook","types":["star"],"size":"small"},"3-ba":{"configuration":"auto","token":"b48c2a681745c6064b65c08ca650d51b"},"ga":{"configuration":"auto","token":"UA-93485976-1"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"search-plus":{}},"theme":"default","author":"eiuapp","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Spacemacs Handbook - Spacemacs 实践指南 by eiuapp","language":"zh-hans","links":{"sidebar":{"Spacemacs Handbook":"https://eiuapp.github.io/spacemacs-handbook"}},"gitbook":"*","description":"Spacemacs Handbook - Spacemacs 实践指南 2019年 by eiuapp "},"file":{"path":"post/spacemacs-flycheck-select-syntax-checkers-automatically.md","mtime":"2019-11-05T10:34:51.971Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-05T10:35:49.318Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-adsense/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+
+    </body>
+</html>
+

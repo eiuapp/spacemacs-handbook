@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-env.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-install-with-win10.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-install-faq-with-win10.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-faq-is-the-package-name-misspelled.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-use-zilongshanren-spacemacs-private.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-key-binding.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-sdcv.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/sdcf-with-spacemacs-macos.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-company-english-helper.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-insert-translated-name.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/emacspeak-install-with-spacemacs-macos.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/emacspeak-install-with-spacemacs-wsl.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-flycheck-select-syntax-checkers-automatically.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-eslint-javascript.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-eslint-javascript-tramp.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-themes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-0-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-1-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-2-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-3-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-4-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-5-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-6-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-7-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-8-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-9-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-10-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-rocks-season-1-day-11-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-qa-1.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-change-eshell-with-wsl-zsh.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-install-pyim-4-wubi-input-method.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/spacemacs-fonts-source-code-pro.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/pyim-toggle-input-method-faq.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://eiuapp.github.io/spacemacs-handbook/post/ubuntu-spacemacs.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>
